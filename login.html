@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: #6c64be;
+        }
+
+        #login {
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            width: 30%;
+            background-color: white;
+            border-radius: 10px;
+            margin: 0 auto;
+            margin-top: 50px;
+            ;
+            padding: 100px 0px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            /* border: 1px solid black; */
+            width: 80%;
+            margin: 0 auto;
+            margin-top: 40px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            font-size: 20px;
+            width: 90%;
+            border: none;
+            border-bottom: 2px solid gray;
+            padding: 5px 10px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+        }
+
+        input[type="submit"] {
+            width: 95%;
+            height: 50px;
+            color: white;
+            font-size: 20px;
+            margin-top: 20px;
+            border: none;
+            background-color: #428bd4;
+            padding: 5px 10px;
+        }
+
+        form+p {
+            margin-top: 40px;
+        }
+
+        p {
+            text-align: center;
+            line-height: 30px;
+        }
+
+        span {
+            color: #428bd4;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="login">
+        <h1>Login</h1>
+        <form>
+            <input type="text" placeholder="Email">
+            <br>
+            <input type="password" placeholder="Password">
+            <br>
+            <input type="submit" value="Login">
+        </form>
+        <p>Forgot <span>Password?</span></p>
+        <p>Don't have account? <span>sign up</span></p>
+    </div>
+</body>
+
+</html>
