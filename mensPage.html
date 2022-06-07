@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mens</title>
+    <style>
+      #container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(1, 300px);
+        width: 75%;
+        border: 1px solid transparent;
+        margin: auto;
+        gap: 20px;
+      }
+      p {
+        margin: 0;
+        display: inline;
+      }
+      h1 {
+        margin: 4px;
+      }
+      span {
+        color: teal;
+        font-style: italic;
+      }
+      #container > div {
+        border: 1px solid transparent;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      img {
+        width: 70%;
+        height: 70%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div>
+        <img
+          src="https://rukminim1.flixcart.com/image/400/400/kjkbv680-0/suitcase/s/a/g/streak-bright-blue-s10-cabin-luggage-killer-original-imafz3rgwcwgausk.jpeg?q=70"
+          alt=""
+        />
+        <h1>Adidas</h1>
+        <p>Rs-500</p>
+        <span>70% off</span>
+      </div>
+      <div>
+        <img
+          src="https://rukminim1.flixcart.com/image/400/400/ki3gknk0-0/jean/q/l/k/32-kjb-1516-dnft-bl-killer-original-imafxytcqwyzbegq.jpeg?q=70"
+          alt=""
+        />
+        <h1>Denim</h1>
+        <p>Rs-200</p>
+        <span>65% off</span>
+      </div>
+      <div>
+        <img
+          src="https://rukminim1.flixcart.com/image/400/400/jzzvs7k0/shirt/h/a/h/l-c301-dustypink-dennis-lingo-original-imafjvx7b9jguhdv.jpeg?q=70"
+          alt=""
+        />
+        <h1>Raymond</h1>
+        <p>Rs-300</p>
+        <span>65% off</span>
+      </div>
+    </div>
+  </body>
+</html>
